@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+.wrapper {
+	height: 1080px;
+	width: 100%;
+	background-image: url(../img/road.jpg);
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.yellowcar {
+	background: transparent;
+	width: 70px;
+	margin: 70px;
+	margin-top: 1100px;
+}
