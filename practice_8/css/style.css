@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Passion+One|Roboto');
+
+.header, .footer {
+	height: 70px;
+	background-color: orange;
+}
+
+.header_container {
+	line-height: 70px;
+	color: #f9f9f9;
+	font-family: 'Passion One', sans-serif;
+	display: flex;
+	width: 100vw;
+	justify-content: flex-start;
+	font-size: 30px;
+	padding-left: 2.5vw;
+	/*height: 70px;*/
+}
+
+.footer {
+	margin-top: 20px;
+}
+
+.footer span {
+	line-height: 70px;
+	color: #f9f9f9;
+	font-family: 'Passion One', sans-serif;
+	font-size: 30px;
+	padding-left: 2.5vw;
+}
+
+main {
+	margin-top: 20px;
+}
+
+.main_section {
+	display: flex;
+	width: 95vw;
+	justify-content: space-between;
+	margin: auto;
+	align-items: flex-start;
+}
+
+.column {
+	width: calc((95vw - 80px)/3);
+	border-radius: 10px;
+	box-shadow: 0 0 10px grey;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.column h2 {
+	font-weight: bold;
+}
+
+.column p, .column h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+
+}
+
+.img {
+	padding-bottom: 100%;
+}
+
+.img.one {
+	background-image: url(../img/pic1.jpg);
+	background-size: cover;
+}
+
+.img.two {
+	background-image: url(../img/pic2.png);
+	background-size: contain;
+}
+
+.img.three {
+	background-image: url(../img/pic3.jpg);
+	background-size: cover;
+}
