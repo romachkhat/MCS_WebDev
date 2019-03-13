@@ -6,6 +6,12 @@
 	background-color: orange;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 .header_container {
 	line-height: 70px;
 	color: #f9f9f9;
@@ -32,6 +38,7 @@
 
 main {
 	margin-top: 20px;
+	flex-grow: 1;
 }
 
 .main_section {
