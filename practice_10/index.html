@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Практика 10</title>
+	<meta charset="utf-8">
+	<meta description="Practice 10">
+	<meta keywords="Practice 10">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form">
+			<form method="POST" action="http://free.allforms.mailjol.net/u/ef543f99.php">
+				<fieldset class="login">
+					<label for="login">Введите логин:</label>
+					<input type="login" name="login">
+					<label for="password">Введите пароль</label>
+					<input type="password" name="password">
+				</fieldset>
+				<fieldset class="questions">
+					<label for="animals">Вы умеете говорить с животными?</label>
+					<input type="radio" name="animals" value="yes"><span>Да</span>
+					<input type="radio" name="animals" value="no"><span>Нет</span>
+					<label for="number_of_languages">Сколько животных языков вы знаете?</label>
+					<select name="number_of_languages">
+						<option value="one">1</option>
+						<option value="two">2</option>
+						<option value="three_or_more">3 или больше</option>
+					</select>
+					<label for="last_contact">Дата последнего контакта с животными:</label>
+					<input type="date" name="last_contact">
+				</fieldset>
+				<fieldset class="message">
+					<label for="message">Опишите ваш последний контакт с животным:</label>
+					<textarea name="message"></textarea>
+				</fieldset>
+				<input type="submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
